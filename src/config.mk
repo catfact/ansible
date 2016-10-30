@@ -80,6 +80,7 @@ CSRCS = \
        ../libavr32/src/monome.c \
        ../libavr32/src/music.c \
        ../libavr32/src/notes.c \
+       ../libavr32/src/print_funcs.c \
        ../libavr32/src/random.c \
        ../libavr32/src/timers.c \
        ../libavr32/src/usb.c \
@@ -102,7 +103,6 @@ CSRCS = \
        avr32/drivers/twi/twi.c                            \
        avr32/drivers/usart/usart.c                        \
        avr32/drivers/usbb/usbb_host.c                     \
-       avr32/utils/debug/print_funcs.c                    \
        common/services/usb/class/msc/host/uhi_msc.c       \
        common/services/usb/class/msc/host/uhi_msc_mem.c   \
        common/services/spi/uc3_spi/spi_master.c \
